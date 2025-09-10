@@ -17,8 +17,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title" style={styles.title}>HOLA MUNDO 💙💛</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
@@ -72,4 +71,8 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
+
+  title:{
+    color: '#0000FF',
+  }
 });
